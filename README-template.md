@@ -47,8 +47,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 3. Initializing git repositories main and development
 4. Import git repositories to the Vercel project
 5. Create HTML structure
-6. Create CSS Utility
-7. Import fonts to styles 
+6. Import fonts to styles 
+7. Create CSS Utility
+8. CSS Layout style
+
 
 ### Built with
 

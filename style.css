@@ -1,0 +1,23 @@
+:root{
+    --primary-cyan:hsl(185, 75%, 39%);
+    --primary-dark-blue: hsl(229, 23%, 23%);
+    --primary-gray: hsl(227, 10%, 46%);
+    --neutral: hsl(0, 0%, 59%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+htm,
+body{
+    font-family: 'Kumbh Sans', sans-serif;  
+    font-size: 18px;
+    overflow: hidden;
+    color: var(--primary-dark-blue);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
