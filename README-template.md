@@ -50,6 +50,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 6. Import fonts to styles 
 7. Create CSS Utility
 8. CSS Layout style
+9. Menu padding, margin, font-size...
 
 
 ### Built with
