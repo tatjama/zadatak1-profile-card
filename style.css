@@ -1,18 +1,21 @@
 :root{
     --primary-cyan:hsl(185, 75%, 39%);
     --primary-dark-blue: hsl(229, 23%, 23%);
-    --primary-gray: hsl(227, 10%, 46%);
-    --neutral: hsl(0, 0%, 59%);
+    --primary-gray: hsla(227, 10%, 46%);    
+    --neutral: hsla(0, 0%, 59%);
+    --neutral-transparent: hsla(0, 0%, 59%, 0.5);
 }
+/*Start Utility*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-htm,
+htm, .container,
 body{
     font-family: 'Kumbh Sans', sans-serif;  
     font-size: 18px;
+    position: relative;
     overflow: hidden;
     color: var(--primary-dark-blue);
 }
@@ -31,16 +34,20 @@ p{
     height: 100vh;
     position: relative;
 }
+/*End Utility*/
+/*Start background layer*/
 .back-layer{
     background-color: var(--primary-cyan);
     width: 100%;
     height: 100%;
     margin: 0;
 }
+/*End background layer*/
+/*Start Card*/
 .card{
     background-color:white;
     width: 340px;
-    height: 360px;
+    height: 365px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -62,7 +69,6 @@ p{
     background-color:var(--primary-cyan);
     background-image: url(./images/bg-pattern-card.svg);
     background-size: cover;
-    object-fit:cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -74,6 +80,7 @@ p{
     position: relative;
     top: -72px;
 }
+/*Start user*/
 .menu__user{
     padding: 20px 0;
     width: 100%;
@@ -81,10 +88,11 @@ p{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--neutral);
+    border-bottom: 1px solid var(--neutral-transparent);
 }
 .menu__img{
-    border: 3px solid white;
+    background-color:white;
+    border: 6px solid white;
     border-radius:50%;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
@@ -98,13 +106,15 @@ p{
 .menu__city{
     font-weight: 700;
 }
+/*End User*/
+/*Start Data*/
 .menu__data{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
+    padding: 10px 15px;
 }
 .menu__data-item {
     text-align: center;
@@ -114,3 +124,7 @@ p{
 .menu__data-header{
     margin-bottom:5px;
 }
+/*End Data */
+/*End Menu*/
+
+    
