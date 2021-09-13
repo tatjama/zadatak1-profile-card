@@ -1,50 +1,70 @@
-# Profile card component
+# Frontend Mentor - Profile card component solution
 
-![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+  - [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [My process](#my-process)
+  - [Built with](#built-with)
+  - [Author](#author)
+## Overview
 
-## The challenge
+This project, which seems very simple at first glance, is, in fact, incredibly complex.
+In order to solve the task, I had to apply a lot of advanced CSS concepts.
+### The challenge
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+- Build out the project to the designs provided
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-## Where to find everything
+![Overview](./images/screenshots/profile_card_1.jpg)
+![DevTools Screenshot](./images/screenshots/profile_card_2.jpg)
+![Comparison mobile](./images/screenshots/profile_card_3.jpg)
+![Comparison desktop](./images/screenshots/profile_card_4.jpg)
+![Desktop 1440x720px](./images/screenshots/profile_card_5.png)
+![Mobile 375x765px](./images/screenshots/profile_card_6.png)
+![FullScreen](./images/screenshots/profile_card_7.png)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+### Links
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+-  [GitHub URL:](https://github.com/tatjama/zadatak1-profile-card)
+-  [Live Site URL:](https://zadatak1-profile-card-psi.vercel.app/)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
+1. Create a new project 
+2. Import starting code 
+3. Initializing git repositories main and development
+4. Import git repositories to the Vercel project
+5. Create HTML structure
+6. Import fonts to styles 
+7. Create CSS Utility
+8. CSS Layout style
+9. Menu padding, margin, font-size...
+10. Create Card shadow
+11. Position background circles
+12. Responsive at 768px
+13. Compare original designs with my work
+14. Create screenshots
+15. Change README-template.md to README.md 
+16. Merge develop branch into master branch
+### Built with
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+- Semantic HTML5 markup
+- Flexbox
+- Media queries
+- Centering elements, content and text
+- Element positioning
+- Box-shadows
+- Customize font,width and size
+- Borders
+- Overflow control
+- Transparency
+## Author
 
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- Website - [Tatjana Markovic](https://my-react-portfolio-tatjana.vercel.app/)
+- LinkedIn - [Tatjana Marković](https://www.linkedin.com/in/tatjana-markovi%C4%87-919501189/)
+- GitHub - [tatjama](https://github.com/tatjama)

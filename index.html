@@ -13,10 +13,58 @@
     />
 
     <title>Profile card component</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   </head>
   <body>
-    Coded by <a href="#">Tatjana Markovic</a>.
-    <h1>Profile card</h1>
+    
+    <div class="container">
+      <!--Start Back Layer-->
+      <div class="back-layer">          
+            <img class=" circle--top" src = "./images/bg-pattern-top.svg">
+            <img class=" circle--bottom" src = "./images/bg-pattern-bottom.svg">               
+          <!--Start Card-->
+          <div class="card">
+              <div class="card__top">                 
+              </div>
+              <!--Start menu-->
+              <div class="menu">
+                 <!--Start User--> 
+                 <div class="menu__user">
+                     <img class="menu__img" src="./images/image-victor.jpg" alt="avatar"/>
+                      <h3 class="menu__header">Victor Crest <span>&nbsp 26 </span></h3>
+                      <p class="menu__city">London</p>
+                 </div>                 
+                    <!--End user-->
+                    <!--Start Data-->
+                  <div class="menu__data">                    
+                      <div class="menu__data-item">
+                          <h3 class="menu__data-header">80K</h3>
+                          <p class="menu__p">Followers</p>
+                      </div>
+                      <div class="menu__data-item">
+                          <h3 class="menu__data-header">803K</h3>
+                          <p class="menu__p">Likes</p>
+                      </div>
+                      <div class="menu__data-item">
+                          <h3 class="menu__data-header">1.4K</h3>
+                          <p class="menu__p">Photos</p>
+                      </div>
+                    </div>
+                    <!--End data-->                        
+              </div>
+              <!--End Menu-->              
+          </div>
+          <!--End Card-->
+      </div>
+      <!--End back Layer-->
+  </div>
+  <div class="copy">
+    Coded by 
+    <a href="https://my-react-portfolio-tatjana.vercel.app/" target="_blank">Tatjana Markovic</a>.
+  </div>
   </body>
 </html>
