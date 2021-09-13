@@ -1,7 +1,8 @@
 :root{
     --primary-cyan:hsl(185, 75%, 39%);
     --primary-dark-blue: hsl(229, 23%, 23%);
-    --primary-gray: hsla(227, 10%, 46%);    
+    --primary-gray: hsla(227, 10%, 46%);   
+    --primary-gray-transparent: hsla(227, 10%, 46%, 0.2); 
     --neutral: hsla(0, 0%, 59%);
     --neutral-transparent: hsla(0, 0%, 59%, 0.5);
 }
@@ -42,6 +43,16 @@ p{
     height: 100%;
     margin: 0;
 }
+.circle--top{
+    position: absolute;
+    right: 51%;
+    bottom: 35%;
+}
+.circle--bottom{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
 /*End background layer*/
 /*Start Card*/
 .card{
@@ -54,6 +65,7 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius:10px;
+    box-shadow: 10px 25px 10px var(--primary-gray-transparent)        , 20px 50px 40px var(--primary-gray-transparent)        , 20px 70px 70px var(--primary-gray-transparent);
     -ms-transform: translate(-50%, -50%);
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -126,5 +138,18 @@ p{
 }
 /*End Data */
 /*End Menu*/
-
+.copy{
+    height:20px;
+    padding:10px;
+    position:relative;
+    top:-40px;
+}
+/*Start Responsive*/
+@media screen and (max-width: 768px){
+    .circle--bottom{
+        top: 42%;
+        left: 35%;
+    }
+}
+/*End Responsive*/
     
